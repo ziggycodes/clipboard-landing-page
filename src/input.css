@@ -9,7 +9,7 @@
 
 /* style for text content of each section */
 .header-content{
-  @apply text-lg text-[#9FABB2] font-extralight col-start-2 text-center mb-12 my-4 w-48 md:w-[30rem];
+  @apply text-lg text-[#9FABB2] font-extralight col-start-2 col-end-3 text-center mb-12 my-4 w-48 md:w-[30rem];
 }
 
 /* style for container of buttons or div containing buttons */

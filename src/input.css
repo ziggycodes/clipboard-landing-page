@@ -1,0 +1,32 @@
+  @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Quicksand:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* style for header of each section */
+.header{
+  @apply text-5xl text-[#4C545D] font-semibold text-center my-4 col-span-full;
+}
+
+/* style for text content of each section */
+.header-content{
+  @apply text-lg text-[#9FABB2] font-extralight col-start-2 text-center mb-12 my-4 w-48 md:w-[30rem];
+}
+
+/* style for container of buttons or div containing buttons */
+.btn-container{
+  @apply mx-28 md:mx-[30rem] md:my-8;
+}
+
+/* style for buttons */
+.mobile-btn{
+  @apply w-72 h-16 block my-4 md:inline;
+}
+/*Note: .mobile-btn has to come before .button because of CSS cascading feature, else buttons follow only .mobile-btn requirerments*/
+
+.button {
+    @apply md:w-48 md:h-12 rounded-full text-white text-xl font-semibold;
+}
+
+
+
+

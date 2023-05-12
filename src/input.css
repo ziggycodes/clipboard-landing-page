@@ -27,7 +27,7 @@
 /*Note: .mobile-btn has to come before .button because of CSS cascading feature, else buttons follow only .mobile-btn requirerments*/
 
 .button {
-    @apply md:w-48 md:h-12 rounded-full text-white text-xl font-semibold;
+    @apply md:w-48 md:h-12 rounded-full text-white text-xl font-semibold hover:shadow-xl shadow-inner;
 }
 
 /* postion for the mobile footer links using grids */
@@ -36,4 +36,7 @@
   @apply col-start-2 col-end-5 justify-self-center text-center font-bold my-4;
 }
 
+.hover-link {
+  @apply hover:text-[#26BAA4];
+}
 
